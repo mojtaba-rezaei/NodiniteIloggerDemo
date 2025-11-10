@@ -1,0 +1,6 @@
+@NodiniteIloggerDemo.WebApp_HostAddress = http://localhost:5105
+
+GET {{NodiniteIloggerDemo.WebApp_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
