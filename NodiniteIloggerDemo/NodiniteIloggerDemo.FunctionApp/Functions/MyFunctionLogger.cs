@@ -19,7 +19,7 @@ public class MyFunctionLogger
     public async Task<IActionResult> Run(
         [HttpTrigger(AuthorizationLevel.Anonymous, "get")] HttpRequest req)
     {
-        _logger.LogWarning($"Function triggered at {DateTime.UtcNow.ToString()}");
+        _logger.LogInformation($"Function triggered at {DateTime.UtcNow.ToString()}");
 
         var demoBody = new
         {

@@ -1,6 +1,6 @@
-using COSIObjectsLib.Services.Nodinite.ILoggerNodinite.Extensions;
-using COSIObjectsLib.Services.Nodinite.ILoggerNodinite.Middleware.FunctionApp;
-using COSIObjectsLib.Services.Nodinite.ILoggerNodinite.Models;
+using ConticaDevTools.Models.NodiniteILogger;
+using ConticaDevTools.Services.NodiniteILogger.Extensions;
+using ConticaDevTools.Services.NodiniteILogger.Middleware.FunctionApp;
 using Microsoft.Azure.Functions.Worker;
 using Microsoft.Azure.Functions.Worker.Builder;
 using Microsoft.Extensions.DependencyInjection;

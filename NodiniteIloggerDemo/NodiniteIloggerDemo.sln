@@ -1,13 +1,13 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.13.35919.96 d17.13
+VisualStudioVersion = 17.13.35919.96
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NodiniteIloggerDemo.FunctionApp", "NodiniteIloggerDemo.FunctionApp\NodiniteIloggerDemo.FunctionApp.csproj", "{5EE46D11-9AFF-4424-8398-DF7A3134E9E9}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NodiniteIloggerDemo.WebApp", "NodiniteIloggerDemo.WebApp\NodiniteIloggerDemo.WebApp.csproj", "{E4E1D5E7-6AAF-4F50-8658-8B04FD0876F1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "COSIObjectsLib", "..\..\..\ClasOhlson\cosi-objects-lib\COSIObjectsLib.csproj", "{7F9F14B8-8F33-E2A2-A2CF-3A0E9AA4358A}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConticaDevTools.Services.NodiniteILogger", "..\..\contica-devtools\ConticaDevTools\ConticaDevTools.Services.NodiniteILogger\ConticaDevTools.Services.NodiniteILogger.csproj", "{E94F9FD5-A415-5B71-3C2E-18EBFBC405DB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -23,10 +23,10 @@ Global
 		{E4E1D5E7-6AAF-4F50-8658-8B04FD0876F1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E4E1D5E7-6AAF-4F50-8658-8B04FD0876F1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E4E1D5E7-6AAF-4F50-8658-8B04FD0876F1}.Release|Any CPU.Build.0 = Release|Any CPU
-		{7F9F14B8-8F33-E2A2-A2CF-3A0E9AA4358A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{7F9F14B8-8F33-E2A2-A2CF-3A0E9AA4358A}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{7F9F14B8-8F33-E2A2-A2CF-3A0E9AA4358A}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{7F9F14B8-8F33-E2A2-A2CF-3A0E9AA4358A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E94F9FD5-A415-5B71-3C2E-18EBFBC405DB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E94F9FD5-A415-5B71-3C2E-18EBFBC405DB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E94F9FD5-A415-5B71-3C2E-18EBFBC405DB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E94F9FD5-A415-5B71-3C2E-18EBFBC405DB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

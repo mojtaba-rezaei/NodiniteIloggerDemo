@@ -11,7 +11,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\..\..\ClasOhlson\cosi-objects-lib\COSIObjectsLib.csproj" />
+    <ProjectReference Include="..\..\..\contica-devtools\ConticaDevTools\ConticaDevTools.Services.NodiniteILogger\ConticaDevTools.Services.NodiniteILogger.csproj" />
   </ItemGroup>
 
 </Project>
